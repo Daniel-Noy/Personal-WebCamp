@@ -10,7 +10,7 @@ Prompt maestro para generar el diseño de la aplicación en Stitch, respetando l
 Design a comprehensive, high-end web application for "DevWebCamp", an enterprise-grade multi-day tech conference platform for engineering leaders, CTOs, and B2B tech innovators.
 
 ### Aesthetic & Visual Tone:
-- Atmosphere: Prestigious, sober, corporate, and cutting-edge tech conference. 
+- Atmosphere: Prestigious, sober, corporate, and cutting-edge tech conference.
 - Theme: Pristine, modern Light Mode with clean off-white canvas backgrounds, high typography contrast, and generous whitespace.
 - UI Style: Refined glassmorphism and subtle soft glow accents. Translucent frosted-glass cards (backdrop-filter blur), ultra-thin delicate borders, polished rounded corners, and soft multi-layered shadows.
 - Color Palette: Automatic enterprise B2B corporate palette chosen by the model (conveying trust, technology leadership, and clarity) with crisp neutral surfaces and refined functional accents for status, actions, and tags. Do NOT use harsh neon tones.

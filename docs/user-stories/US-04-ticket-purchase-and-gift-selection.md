@@ -17,12 +17,14 @@
 ## Criterios de Aceptación (Gherkin)
 
 ### Escenario: Registro en Pase Gratuito
+
 - **Dado** que soy un usuario autenticado sin boleto previo
 - **Cuando** selecciono la opción "Pase Gratuito" y confirmo mi registro
 - **Entonces** el sistema emite inmediatamente un boleto con tipo `gratis` y token único
 - **Y** soy redirigido a mi panel para ver mi boleto digital.
 
 ### Escenario: Adquisición de Pase Presencial con selección de regalo
+
 - **Dado** que soy un usuario autenticado adquiriendo un pase presencial
 - **Cuando** elijo mi regalo conmemorativo disponible (ej. Playera con talla) y confirmo el pago/orden
 - **Entonces** se registra la compra con el paquete `presencial`
@@ -30,6 +32,7 @@
 - **Y** se descuenta o contabiliza la demanda del regalo elegido.
 
 ### Escenario: Prevención de doble compra de pase
+
 - **Dado** que ya cuento con un pase activo emitido
 - **Cuando** intento iniciar un nuevo flujo de compra de boleto
 - **Entonces** el sistema me notifica que ya cuento con un pase activo y me redirige a la gestión de mi boleto existente.
